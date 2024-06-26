@@ -6,7 +6,7 @@ import boto3
 # AWS Credentials
 # Make sure you've set these up in your environment
 region_name = 'us-east-1'  # set your AWS region
-account_id = 'xxx'
+account_id = '950579715744'
 
 from pydantic import BaseModel
 from typing import Optional, List
