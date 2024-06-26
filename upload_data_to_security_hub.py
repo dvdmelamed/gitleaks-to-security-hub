@@ -12,6 +12,7 @@ from pydantic import BaseModel
 from typing import Optional, List
 
 
+# ASFF format
 class AwsSecurityHubFinding(BaseModel):
     SchemaVersion: str
     Id: str
